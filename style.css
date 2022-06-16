@@ -17,7 +17,6 @@
 .container {
     display: grid;
     grid-template-columns: minmax(270px, 15%) 3fr;
-    border: 1px solid rgb(0, 255, 60);
     min-height: 98vh;
 }
 
@@ -71,10 +70,9 @@
 }
 
 .content-container {
-    border: 1px solid red;
     grid-column: 2 /3;
     display: grid;
-    grid-template-rows: minmax(150px, 1fr) 4fr;
+    grid-template-rows: minmax(100px, 150px) 4fr;
     min-width: 600px;
 }
 
